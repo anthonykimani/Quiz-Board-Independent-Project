@@ -20,7 +20,8 @@ body{
     width:600px;
     border-radius:15px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    
+    display:grid;
+    align-content:space-around;
 }
 
 .quiz-header{
@@ -33,7 +34,7 @@ body{
 }
 
 .quiz-body{
-    margin-top: 30px;
+
 }
 .quiz-answers{
     display:grid;
@@ -60,4 +61,22 @@ body{
     margin:10px;
     width:12px;
     background-color: #d01515;
+}
+
+.button-container{
+    display: flex;
+    justify-content:space-around;
+}
+
+#button{
+    padding:10px 10px;
+    font-size:24px;
+    background-color: #0e4aa9;
+    color:white;
+    border:none;
+    font-weight:500;
+}
+
+#button:hover{
+    background-color: #08357e;
 }
