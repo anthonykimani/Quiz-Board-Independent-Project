@@ -1,0 +1,42 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+
+}
+
+.quiz-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    border:1px solid red;
+}
+
+.quiz-app{
+    background-color:#f8edeb;
+    height:600px;
+    width:600px;
+    border-radius:15px;
+}
+
+.quiz-header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px 5px;
+    border-bottom:3px solid white;
+}
+
+.quiz-answers{
+    display:grid;
+    justify-content: center;
+    align-content:center;
+    padding:10px 10px;
+}
+
+.quiz-answer{
+    padding:10px 0px;
+}
