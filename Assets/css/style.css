@@ -15,10 +15,12 @@ body{
 }
 
 .quiz-app{
-    background-color:#f9f9f9;
+    background-color:#ffffff;
     height:600px;
     width:600px;
     border-radius:15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
 }
 
 .quiz-header{
@@ -26,10 +28,13 @@ body{
     justify-content:center;
     align-items:center;
     padding:20px 5px;
-    color:white;
+    color:rgb(0, 0, 0);
     border-bottom:3px solid white;
 }
 
+.quiz-body{
+    margin-top: 30px;
+}
 .quiz-answers{
     display:grid;
     justify-content: center;
@@ -38,11 +43,21 @@ body{
 }
 
 .quiz-answer{
-    padding:10px 0px;
     width:550px;
     height:40px;
     border-radius:8px;
-    background-color:#e0e0e0;
-    color:#fff;
-    margin:20px 0px;
+    color:rgb(0, 0, 0);
+    padding:10px 5px;
+    display: flex;
+    align-items: center;
+    
+}
+.quiz-answer:hover{
+    background-color:#d3e2fa;
+}
+
+.quiz-answer > input{
+    margin:10px;
+    width:12px;
+    background-color: #d01515;
 }
