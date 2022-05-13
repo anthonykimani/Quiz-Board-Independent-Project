@@ -4,7 +4,7 @@
 }
 
 body{
-
+    background-color:#e0e0e0;
 }
 
 .quiz-container{
@@ -12,11 +12,10 @@ body{
     justify-content:center;
     align-items:center;
     height:100vh;
-    border:1px solid red;
 }
 
 .quiz-app{
-    background-color:#f8edeb;
+    background-color:#f9f9f9;
     height:600px;
     width:600px;
     border-radius:15px;
@@ -27,6 +26,7 @@ body{
     justify-content:center;
     align-items:center;
     padding:20px 5px;
+    color:white;
     border-bottom:3px solid white;
 }
 
@@ -39,4 +39,10 @@ body{
 
 .quiz-answer{
     padding:10px 0px;
+    width:550px;
+    height:40px;
+    border-radius:8px;
+    background-color:#e0e0e0;
+    color:#fff;
+    margin:20px 0px;
 }
