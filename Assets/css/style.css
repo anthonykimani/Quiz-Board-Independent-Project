@@ -33,9 +33,6 @@ body{
     border-bottom:3px solid white;
 }
 
-.quiz-body{
-
-}
 .quiz-answers{
     display:grid;
     justify-content: center;
@@ -79,4 +76,40 @@ body{
 
 #button:hover{
     background-color: #08357e;
+}
+
+
+.form-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.form-container > form{
+    background-color:#ffffff;
+    height:400px;
+    width:600px;
+    border-radius:15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display:grid;
+    align-content:space-around;
+    justify-content:center;
+}
+
+.input{
+    width:550px;
+    outline:none;
+    border:1px solid black;
+    height:50px;
+    font-size:20px;
+}
+
+.submit{
+    height:30px;
+    width:100px;
+}
+
+.hide{
+    display:none;
 }
