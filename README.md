@@ -17,7 +17,7 @@
 
 ## Features
 
-A Two page website for a Moving company .
+A simple quiz app build with Javascript.
 
 [Go Back to the top](#After-school-computer-club-Quiz-App)
  ###  Requirements
@@ -30,7 +30,7 @@ A Two page website for a Moving company .
  
 ### Live Link
 
-- Click this link to view the live application https://anthonykimani.github.io/Week-2-Independent-Project-Quick-Movers-Website/
+- Click this link to view the live application https://anthonykimani.github.io/Quiz-Board-Independent-Project/
 - 
 ### Technology  Used
 
