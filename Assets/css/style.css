@@ -127,6 +127,7 @@ body{
     font-family:'Actor',sans-serif;
     font-weight:300;
     font-size: 32px;
+    color:blue;
 }
 
 label{
@@ -180,21 +181,34 @@ label{
 
 .scoreboard-container{
     display:flex;
+    height:100vh;
     justify-content:center;
     align-items:center;
 }
 
 .scoreboard-body{
     background-color:#ffffff;
-    height:100px;
-    width:500px;
+    height:300px;
+    width:1200px;
     border-radius:15px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    display:grid;
-    align-content:center;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    font-family:'Actor',sans-serif;
+    font-size: 24px;
 }
 
+.scoreboard-image img{
+    width:400px;
+}
 
+.quiz-scoreboard > span{
+    color:blue;
+    justify-content:space-around;
+    font-family:'Actor',sans-serif;
+    font-size: 48px;
+}
 
 .hide{
     display:none;
