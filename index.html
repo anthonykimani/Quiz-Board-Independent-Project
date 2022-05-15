@@ -5,24 +5,34 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--links the style.css file-->
         <link rel="stylesheet" href="./Assets/css/style.css" type="text/css">
+        <!--links to google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Actor&family=Adamina&family=Poppins&display=swap" rel="stylesheet">
+        <!--title-->
         <title>After-School Computer Club Quiz Test</title>
     </head>
     <body>
+        <!--FORM SECTION-->
         <div class="form-container ">
             <form>
-                <h3>After-School Computer Club Quiz Test</h3>
-                <label for="name">Name</label>
-                <input type="text" class="input" placeholder="name" required id="name">
-                <label for="phone">Phone</label>
-                <input type="phone" class="input" placeholder="phone" id="phone">
-                <label for="email">Email</label>
-                <input type="email" class="input" placeholder="email" id="email">
-                <input type="submit" class="submit">
-                <button class="startbutton">StartQuiz</button>
-
+                <div class = "form-image">
+                    <img src="./Assets/images/business-3d-girl-with-dog.png" alt="girl with dog">
+                </div>
+                <div class="form-text">
+                    <h3>After-School Computer Club Quiz Test</h3>
+                    <label for="name">Name</label>
+                    <input type="text" class="input" placeholder="name" required id="name">
+                    <label for="phone">Phone</label>
+                    <input type="phone" class="input" placeholder="phone" id="phone">
+                    <label for="email">Email</label>
+                    <input type="email" class="input" placeholder="email" id="email">
+                    <input type="submit" class="submit">
+                    <button class="startbutton">StartQuiz</button>
+                </div>
             </form>
         </div>
-
+        <!--QUIZ SECTION-->
         <div class="quiz-container hide">
             <div class="quiz-app">
                 <div class="quiz-body">
@@ -57,12 +67,14 @@
                 </div>
             </div>
         </div>
+        <!--SCOREBOARD SECTION-->
         <div class="scoreboard-container hide">
             <div class="scoreboard-body">
                 <h3 class="quiz-scoreboard">Your is Score :<span class = "score"></span>%</h3>
             </div>
         </div>
     </body>
+    <!--LINKING THE JAVASCRIPT FILES-->
 <script src="./Assets/js/index.js"></script>
 <script src="./Assets/js/app.js"></script>
 </html>
