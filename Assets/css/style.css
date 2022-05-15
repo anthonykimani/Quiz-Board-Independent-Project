@@ -214,3 +214,106 @@ label{
     display:none;
 }
 
+@media(max-width:1024px){
+    .form-container > form{
+        height:600px;
+        width:1000px;
+    }
+    .form-image img{
+        width:350px;
+    }
+    .scoreboard-body{
+        width:900px;
+    }
+}
+
+@media(max-width:915px){
+    .form-container > form{
+        display:grid;
+        height:800px;
+        width:800px;
+    }
+    .form-image img{
+        padding:10px;
+        position:relative;
+        bottom:-50px;
+        right:-50px;
+    }
+}
+
+@media(max-width:768px){
+    .form-container > form{
+        display:grid;
+        margin-top:300px;
+        height:800px;
+        max-width:600px;
+        width:100%;
+    }
+    .form-image img{
+        padding:10px;
+        position:relative;
+        bottom:-50px;
+        right:-50px;
+    }
+}
+
+@media(max-width:555px){
+    .input{
+        width:100%;
+        max-width:500px;
+    }
+}
+@media(max-width:425px){
+    .form-container > form{
+        display:grid;
+        margin-top:300px;
+        height:800px;
+        max-width:380px;
+        width:100%;
+    }
+    .form-image img{
+        padding:10px;
+        position:relative;
+        right:5px;
+    }
+
+    .form-text > h3{
+        max-width:390px;
+        width:100%;
+        align-items:center;
+        font-size:24px;
+    }
+    .input{
+        width:100%;
+        max-width:350px;
+        outline:none;
+        border:1px solid black;
+        height:50px;
+        font-size:20px;
+    }
+    .quiz-app{
+        margin-top:200px;
+        background-color:#ffffff;
+        height:650px;
+        max-width:400px;
+        width:100%;
+        border-radius:15px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display:grid;
+        align-content:space-around;
+    }
+    .quiz-title{
+        width:400px;
+    }
+
+    .scoreboard-body{
+        margin-top:200px;
+        width:100%;
+        height:600px;
+        display:grid;
+        max-width:400px;
+    }
+    .quiz-scoreboard{
+        align-content:center;
+    }
+}
