@@ -16,7 +16,7 @@ body{
 
 .quiz-app{
     background-color:#ffffff;
-    height:600px;
+    height:650px;
     width:600px;
     border-radius:15px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -24,25 +24,30 @@ body{
     align-content:space-around;
 }
 
-.quiz-header{
+.quiz-body{
+    display:grid;
+    justify-content:center;
+    height:200px;
+}
+
+.quiz-title{
     display:flex;
     justify-content:center;
     align-items:center;
-    padding:20px 5px;
+    padding:10px 5px;
     color:rgb(0, 0, 0);
-    border-bottom:3px solid white;
+    border-bottom:3px solid rgb(197, 194, 194);
 }
 
 .quiz-answers{
     display:grid;
-    justify-content: center;
     align-content:center;
-    padding:10px 10px;
+    padding:2px 10px;
+    width:500px;
 }
 
 .quiz-answer{
-    width:550px;
-    height:40px;
+    height:10px;
     border-radius:8px;
     color:rgb(0, 0, 0);
     padding:10px 5px;
@@ -62,11 +67,12 @@ body{
 
 .button-container{
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
+    margin:5px;
 }
 
-#button{
-    padding:10px 10px;
+.button{
+    padding:5px 10px;
     font-size:24px;
     background-color: #0e4aa9;
     color:white;
@@ -74,7 +80,7 @@ body{
     font-weight:500;
 }
 
-#button:hover{
+.button:hover{
     background-color: #08357e;
 }
 
@@ -110,6 +116,32 @@ body{
     width:100px;
 }
 
+
+.startbutton{
+    height:30px;
+    width:100px;
+}
+
+
+.scoreboard-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.scoreboard-body{
+    background-color:#ffffff;
+    height:100px;
+    width:500px;
+    border-radius:15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display:grid;
+    align-content:center;
+}
+
+
+
 .hide{
     display:none;
 }
+
