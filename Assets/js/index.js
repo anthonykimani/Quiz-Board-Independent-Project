@@ -16,3 +16,8 @@ function startQuiz(){
     quizCard.classList.remove('hide');
 }
 
+submitButton.addEventListener('click',function(){
+    scoreCard.classList.remove('hide');
+    quizCard.classList.add('hide');
+})
+
