@@ -8,6 +8,7 @@ let startQuestion , sortQuestion ;
 const startQuiz = ()=>{
     formCard.classList.add('hide');
     quizCard.classList.remove('hide');
+    showQuestions(i);
 }
 
 const showResult = ()=>{
