@@ -1,85 +1,78 @@
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--links the style.css file-->
-        <link rel="stylesheet" href="./Assets/css/style.css" type="text/css">
-        <!--links to google fonts-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Actor&family=Adamina&family=Poppins&display=swap" rel="stylesheet">
-        <!--title-->
-        <title>After-School Computer Club Quiz Test</title>
-    </head>
-    <body>
-        <!--FORM SECTION-->
-        <div class="form-container ">
-            <form>
-                <div class = "form-image">
-                    <img src="./Assets/images/business-3d-girl-with-dog.png" alt="girl with dog">
-                </div>
-                <div class="form-text">
-                    <h3>After-School Computer Club Quiz Test</h3>
-                    <label for="name">Name</label>
-                    <input type="text" class="input" required id="name">
-                    <label for="phone">Phone</label>
-                    <input type="phone" class="input" id="phone">
-                    <label for="email">Email</label>
-                    <input type="email" class="input"  id="email">
-                    <span class="button-container">
-                        <input type="submit" class="submit" id="form-button">
-                        <button class="startbutton" id="form-button">StartQuiz</button>
-                    </span>
-                </div>
-            </form>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--links the style.css file-->
+    <link rel="stylesheet" href="./Assets/css/style.css" type="text/css" />
+    <!--links to google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Actor&family=Adamina&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!--title-->
+    <title>After-School Computer Club Quiz Test</title>
+  </head>
+  <body>
+    <!--FORM SECTION-->
+    <div class="form-container">
+      <form>
+        <div class="form-image">
+          <img
+            src="./Assets/images/business-3d-girl-with-dog.png"
+            alt="girl with dog"
+          />
         </div>
-        <!--QUIZ SECTION-->
-        <div class="quiz-container hide">
-            <div class="quiz-app">
-                <div class="quiz-body">
-                    <h2 class="quiz-title">What Does HTML stand for?</h2>
-                    <div class="quiz-answers">
-                        <span class = "quiz-answer one"><input type="radio" class = "answer radio-one" > HYPERTEXT-MARKUP-LANGUAGE</span>
+        <div class="form-text">
+          <h3>After-School Computer Club Quiz Test</h3>
+          <label for="name">Name</label>
+          <input type="text" class="input" required id="name" />
+          <label for="phone">Phone</label>
+          <input type="phone" class="input" id="phone" />
+          <label for="email">Email</label>
+          <input type="email" class="input" id="email" />
+          <span class="button-container">
+            <input type="submit" class="submit" id="form-button" />
+            <button class="startbutton" id="form-button">StartQuiz</button>
+          </span>
+        </div>
+      </form>
+    </div>
+    <!--QUIZ SECTION-->
+    <div class="quiz-container hide">
+      <div class="quiz-app">
+        <div class="quiz-body">
+          <h2 class="quiz-title"></h2>
+          <div class="quiz-answers">
+            <!-- <span class = "quiz-answer one"><input type="radio" class = "answer radio-one" > HYPERTEXT-MARKUP-LANGUAGE</span>
                         <span class = "quiz-answer two"><input type="radio" class = "answer radio-two" value="HYPA MARKING LIST"> HYPA MARKING LIST</span>
                         <span class = "quiz-answer three"><input type="radio" class = "answer radio-three" value="HELLO MARKETING LANGUAGE"> HELLO MARKETING LANGUAGE</span>
-                        <span class = "quiz-answer four"><input type="radio" class = "answer radio-four" value="HUMMING MADE LARGE"> HUMMING MADE LARGE</span>
-                    </div>
-                </div>
-                <div class="quiz-body">
-                    <h2 class="quiz-title">What Does CSS stand for?</h2>
-                    <div class="quiz-answers">
-                        <span class = "quiz-answer five"><input type="radio" class = "answer radio-five" value="HYPERTEXT-MARKUP-LANGUAGE"> HYPERTEXT-MARKUP-LANGUAGE</span>
-                        <span class = "quiz-answer six"><input type="radio" class = "answer radio-six"> CASCADING STYLESHEET</span>
-                        <span class = "quiz-answer seven"><input type="radio" class = "answer radio-seven" value="CONGO STYLING LETTERS"> CONGO STYLING LETTERS</span>
-                        <span class = "quiz-answer eight"><input type="radio" class = "answer radio-eight" value="CEE-ES-ES"> CEE - ES - ES</span>
-                    </div>
-                </div>
-                <div class="quiz-body">
-                    <h2 class="quiz-title">What Allow websites to become interactive ?</h2>
-                    <div class="quiz-answers">
-                        <span class = "quiz-answer nine"><input type="radio" class = "answer radio-nine" value="JQUERY"> JQUERY</span>
-                        <span class = "quiz-answer ten"><input type="radio" class = "answer radio-ten" value="PYTHON">PYTHON</span>
-                        <span class = "quiz-answer eleven"><input type="radio" class = "answer radio-eleven" value="CSS">CSS</span>
-                        <span class = "quiz-answer twelve"><input type="radio" class = "answer radio-twelve" >JAVASCRIPT</span>
-                    </div>
-                </div>
-                <div class="button-container-2">
-                    <div class="button">Submit</div>
-                </div>
-            </div>
+                        <span class = "quiz-answer four"><input type="radio" class = "answer radio-four" value="HUMMING MADE LARGE"> HUMMING MADE LARGE</span> -->
+          </div>
         </div>
-        <!--SCOREBOARD SECTION-->
-        <div class="scoreboard-container hide">
-            <div class="scoreboard-body">
-                <div class="scoreboard-image">
-                    <img src="./Assets/images/business-3d-man-lying-with-laptop.png" alt="man with laptop">
-                </div>
-                <h3 class="quiz-scoreboard">Your is Score :<span class = "score"> </span>%</h3>
-            </div>
+        <div class="button-container-2">
+          <div class="button">Next</div>
         </div>
-    </body>
-    <!--LINKING THE JAVASCRIPT FILES-->
-<script src="./Assets/js/index.js"></script>
-<script src="./Assets/js/app.js"></script>
+      </div>
+    </div>
+    <!--SCOREBOARD SECTION-->
+    <div class="scoreboard-container hide">
+      <div class="scoreboard-body">
+        <div class="scoreboard-image">
+          <img
+            src="./Assets/images/business-3d-man-lying-with-laptop.png"
+            alt="man with laptop"
+          />
+        </div>
+        <h3 class="quiz-scoreboard">
+          Your is Score :<span class="score"> </span>%
+        </h3>
+      </div>
+    </div>
+  </body>
+  <!--LINKING THE JAVASCRIPT FILES-->
+  <script src="./Assets/js/index.js"></script>
+  <script src="./Assets/js/app.js"></script>
 </html>
